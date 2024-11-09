@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #1d1d1d;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.iconRoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.highlighted {
+  background-color: #e6f3ff; /* Change this color as needed */
+}

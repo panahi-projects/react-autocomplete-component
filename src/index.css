@@ -1,0 +1,54 @@
+/* SIMPLE CSS RESET */
+html {
+  font-size: 16px;
+  font-family: "iransans";
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* FONTS */
+@font-face {
+  font-family: "iransans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/statics/fonts/iransans/woff2/IRANSansWeb_Bold.woff2")
+      format("woff2"),
+    url("/statics/fonts/iransans/woff/IRANSansWeb_Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "iransans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/statics/fonts/iransans/woff/IRANSansWeb_Medium.woff")
+      format("woff2"),
+    url("/statics/fonts/iransans/woff2/IRANSansWeb_Medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "iransans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/statics/fonts/iransans/woff2/IRANSansWeb.woff2") format("woff2"),
+    url("/statics/fonts/iransans/woff/IRANSansWeb.woff") format("woff");
+}
+
+.page {
+  min-height: 100dvh;
+  padding: 1.5em;
+}
